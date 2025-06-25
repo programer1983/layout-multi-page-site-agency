@@ -22,9 +22,9 @@
 @use "./articles/articles-comments.scss";
 @use "./articles/article-sidebar.scss";
 
-@import "./contact/contact-top.scss";
-@import "./contact/contact-form.scss";
-@import "./contact/contact-map.scss";
+@use "./contact/contact-top.scss";
+@use "./contact/contact-form.scss";
+@use "./contact/contact-map.scss";
 
 :root {
   --robotoFont: "Roboto", sans-serif;
