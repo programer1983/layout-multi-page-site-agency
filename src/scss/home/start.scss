@@ -1,0 +1,43 @@
+.start {
+  margin-top: 6.25rem;
+  width: 100%;
+  background-color: rgb(250, 243, 243);
+  padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    .start-title {
+      opacity: 0;
+      transition: opacity 0.3 ease;
+    }
+    .start-hover {
+      transform: scaleY(1);
+    }
+  }
+  @media (max-width: 500px) {
+    margin-top: 3.125rem;
+  }
+}
+.start-title {
+  text-align: center;
+  color: rgb(66, 61, 61);
+  font-weight: 500;
+  opacity: 1;
+  transition: opacity 0.3 ease;
+}
+.start-hover {
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.724);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.4s ease-in-out;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  color: rgb(227, 217, 217);
+  font-size: 1.5625rem;
+}

@@ -1,0 +1,21 @@
+.article-column {
+  display: flex;
+  column-gap: 3.125rem;
+  margin: 0 auto;
+  @media (max-width: 1000px) {
+    margin-top: -9.375rem;
+    column-gap: 0;
+    flex-direction: column-reverse;
+  }
+}
+
+.article-sections {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  @media (max-width: 1000px) {
+    align-items: center;
+    width: 100%;
+  }
+}

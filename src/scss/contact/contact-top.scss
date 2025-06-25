@@ -1,0 +1,35 @@
+.contact-top {
+  padding-top: 15.625rem;
+  @media (max-width: 1000px) {
+    padding-top: 9.375rem;
+  }
+  @media (max-width: 420px) {
+    padding-top: 12.5rem;
+  }
+}
+
+.contact-top__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-top__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.875rem;
+}
+.contact-top__title {
+  color: black;
+  font-size: 3.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  @media (max-width: 420px) {
+    font-size: 3.125rem;
+  }
+}
+.contact-top__text {
+  font-size: 1.5625rem;
+  line-height: 1.7;
+  color: rgba(159, 153, 153, 0.76);
+  max-width: 56.25rem;
+}
