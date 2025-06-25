@@ -1,26 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
 
-@import "./home/reset.scss";
-@import "./home/header.scss";
-@import "./home/hero.scss";
-@import "./home/about.scss";
-@import "./home/blog.scss";
-@import "./home/start.scss";
-@import "./home/footer.scss";
+@use "./home/reset.scss";
+@use "./home/header.scss";
+@use "./home/hero.scss";
+@use "./home/about.scss";
+@use "./home/blog.scss";
+@use "./home/start.scss";
+@use "./home/footer.scss";
 
-@import "./works/works-hero.scss";
+@use "./works/works-hero.scss";
 
-@import "./about/about-hero.scss";
-@import "./about/experts.scss";
-@import "./about/team.scss";
+@use "./about/about-hero.scss";
+@use "./about/experts.scss";
+@use "./about/team.scss";
 
-@import "./blog/blogs.scss";
+@use "./blog/blogs.scss";
 
-@import "./articles/article-global.scss";
-@import "./articles/article-top.scss";
-@import "./articles/article-article.scss";
-@import "./articles/articles-comments.scss";
-@import "./articles/article-sidebar.scss";
+@use "./articles/article-global.scss";
+@use "./articles/article-top.scss";
+@use "./articles/article-article.scss";
+@use "./articles/articles-comments.scss";
+@use "./articles/article-sidebar.scss";
 
 @import "./contact/contact-top.scss";
 @import "./contact/contact-form.scss";
