@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npx vite build"
-  },
-  "devDependencies": {
-    "vite": "^6.3.5"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "sass": "^1.89.2"
+    "sass": "^1.89.2",
+    "vite": "^6.3.5"
   }
 }
